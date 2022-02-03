@@ -1,0 +1,471 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* Hero */
+
+.box-hero {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.box-title-hero {
+    width: 34vw;
+    margin-left: 135px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.hero-button {
+    background: #A459D0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    align-self: flex-start;
+    padding: 10px 20px;
+}
+
+
+/* About */
+
+.about {
+    display: flex;
+    padding: 0px 233px;
+    justify-content: space-between;
+}
+
+.box-text-about {
+    width: 32vw;
+    margin-top: 55px;
+}
+
+.title-about {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #383855;
+}
+
+.text-about {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383855;
+    margin-top: 15px;
+}
+
+.form-budget-about {
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    background: rgb(168,60,0);
+    background: linear-gradient(215deg, rgba(168,60,0,1) 0%, rgba(255,152,46,1) 50%, rgba(168,60,0,1) 100%);
+    padding: 60px 55px;
+    -webkit-border-bottom-right-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-bottomright: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.form-budget-about input {
+    background: #FFFFFF;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #383838;
+}
+
+.form-budget-about textarea {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.button-form-budget {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #383838;
+    padding: 10px 20px;
+    width: 20vw;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+/* Graphic-About */
+
+.graphic-about {
+    padding: 57px 233px;
+}
+
+.title-graphic-about {
+    width: 45vw;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #383855;
+    margin-bottom: 16px;
+}
+
+.text-graphic-about {
+    width: 50vw;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383855;
+    margin-bottom: 37px;
+}
+
+.box-img-graphic {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.img-graphic img {
+    width: 15vw;
+}
+
+.line-one-img-graphic {
+    position: relative;
+}
+
+#solar-plate {
+    position: absolute;
+    z-index: 1;
+}
+
+#line-one {
+    width: 70%;
+    position: absolute;
+    top: 105px;
+    left: 99px;
+}
+
+#transformer {
+    width: 20vw;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+#line-two {
+    right: 51px;
+    position: absolute;
+    width: 70%;
+    top: 177px;
+}
+
+.line-two-img-graphic {
+    position: relative;
+}
+
+#electronics {
+    position: absolute;
+    width: 20vw;
+    top: 406px;
+    left: 115px;
+    z-index: 1;
+}
+
+#line-tree {
+    position: absolute;
+    width: 43%;
+    left: 325px;
+    top: 522px;
+}
+
+#electrical {
+    position: absolute;
+    right: 105px;
+    top: 360px;
+}
+
+.subtitle-graphic {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383855;
+}
+
+.text-subtitle-graphic {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383855;
+    margin-bottom: 5px;
+}
+
+.arrow-yellow {
+    width: 50px;
+    height: 5px;
+    background: #FFCE46;
+    margin-bottom: 5px;
+}
+
+.arrow-red {
+    width: 50px;
+    height: 5px;
+    background: #F66E71;
+    margin-bottom: 5px;
+}
+
+.phases-graphic-about {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.step-phases-graphic {
+    display: flex;
+    width: 31vw;
+    align-items: center;
+}
+
+.number-phases-graphic {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 115px;
+    color: #FED236;
+    margin-right: 20px;
+}
+
+.text-phases-graphic {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383855;
+}
+
+/* Benefits */
+
+.benefits {
+    background: #A459D0;
+    padding: 70px 233px;
+    max-height: 720px;
+}
+
+.title-benefits {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    width: 40vw;
+}
+
+.box-item-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 44px;
+}
+
+.item-benefits {
+    display: flex;
+    align-items: center;
+}
+
+.item-benefits img {
+    width: 3vw;
+    margin-right: 17px;
+}
+
+.text-item-benefits {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.text-item-benefits span {
+    font-weight: 700;
+}
+
+/* Invest */
+
+.invest {
+    padding: 57px 233px;
+}
+
+.title-invest {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #383855;
+    width: 45vw;
+    margin-bottom: 55px;
+}
+
+.box-banks-investment {
+    display: flex;
+    align-items: center;
+}
+
+.banks-invest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #383855;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 220px;
+    height: 500px;
+    padding: 50px 30px;
+}
+
+.img-banks {
+    height: 20vh;
+}
+
+#img-bv {
+    width: 7vw;
+}
+
+.img-banks img{
+    width: 12vw;
+}
+
+.text-banks-invest {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #383855;
+    width: 11vw
+}
+
+.text-banks-invest span {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #383855;
+
+}
+
+.last-banks-invest {
+    display: flex;
+    align-items: center;
+    border: 2px solid #383855;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+
+.box-last-text-banks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.text-banks-invest {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #383855;
+    width: 100%;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 233px;
+}
+
+.img-logo {
+    height: 40px;
+}
+
+.title-item-contact {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 131.5%;
+    color: #7800E1;
+}
+
+.item-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-networks-contact {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 131.5%;
+    color: #7800E1;
+}
+
+.icon-networks-contact img{
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* Baseboard */
+
+.baseboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 233px;
+    background: #FF9600;
+    height: 10px;
+}
+
+.text-baseboard {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 173%;
+    color: #FFFFFF;
+}
